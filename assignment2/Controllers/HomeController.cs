@@ -20,11 +20,40 @@ namespace assignment2.Controllers
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Menu()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Your application description page.";
 
             return View();
         }
+
+        public ActionResult chickenTikka()
+        {
+            ViewBag.Message = "Your application description page.";
+
+            return View();
+        }
+
+        public ActionResult dalMakhni()
+        {
+            ViewBag.Message = "Your application description page.";
+
+            return View();
+        }
+
+        public ActionResult mangoLassi()
+        {
+            ViewBag.Message = "Your application description page.";
+            return View();
+        }
+
+        public ActionResult Contact()
+        {
+            ViewBag.Message = "Indian flame.";
+
+            return View();
+        }
+
+       
     }
 }
